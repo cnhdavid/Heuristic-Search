@@ -40,4 +40,4 @@ with open("results.csv", "w", newline="", encoding="utf-8") as f:
             f"{statistics.stdev(nodes):.1f}"
         ])
 
-print("✅ Fertig! results.csv enthält zwei Tabellen (Runs + Summary).")
+print("Fertig! results.csv enthält zwei Tabellen (Runs + Summary).")
